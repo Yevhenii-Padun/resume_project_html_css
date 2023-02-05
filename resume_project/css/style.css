@@ -1,0 +1,290 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
+  padding: 40px 40px 40px 40px;
+}
+
+/* Wrapper */
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #ffffff;
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Main content */
+.main-content {
+  padding-top: 88px;
+  padding-bottom: 88px;
+  padding-right: 88px;
+  padding-left: 88px;
+  /* якщо відстані однакові по всім сторонам, то можна просто padding:88px */
+  /* якщо відстані різні, то воно по часовій стрілці бере по колу і можна записати padding: 88px 100px 40px 30px */
+}
+.main-content-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin: 0 0 8px 0;
+}
+
+/* About me */
+.my-profesion {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0 0 18px 0;
+}
+.my-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin: 0 0 28px 0;
+}
+.my-descr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  color: #595959;
+  width: 525px;
+}
+
+.abaut-me-container {
+  margin-bottom: 32px;
+}
+/* Projects */
+
+.project-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.project-list {
+  padding: 0 0 0 16px;
+  margin: 0;
+}
+
+.project-container {
+  margin-bottom: 48px;
+}
+.project-item-descr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.project-item-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #005fff;
+}
+
+/* Work Experience */
+.work-experience-container {
+  margin-bottom: 16px;
+}
+
+.work-experience-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0;
+}
+
+.work-experience-company {
+  color: #6d9bf5;
+}
+
+.work-experience-place {
+  margin-bottom: 4px;
+}
+.work-period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ababab;
+  margin: 12px 0 8px 0;
+}
+
+.work-duetis {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.work-duetis-list {
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+/* EDUCATION */
+.education-container {
+  margin-bottom: 16px;
+}
+
+.education-block {
+  margin: 12px 0 0 0;
+}
+
+.education-duetis {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.education-duetis-list {
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+.education-period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ababab;
+  margin: 0;
+}
+.education-experience-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0;
+}
+
+/* LANGUAGES */
+.languages-container {
+  margin-bottom: 16px;
+}
+.languages-duetis {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.languages-duetis-list {
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+/* HOBBIES  */
+.hobbies-container {
+  margin-bottom: 16px;
+}
+.hobbies-duetis {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.hobbies-duetis-list {
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+/* sidbar */
+.sidbar {
+  width: 370px;
+  background: #e0ebfe;
+}
+.my-photo {
+  margin-top: 40px;
+}
+.contacts-container,
+.tech-skils-container,
+.soft-skils-container,
+.my-achivements-container {
+  margin: 48px 0 0 40px;
+}
+
+.sidbar-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #161d2a;
+  margin-bottom: 8px;
+}
+/* contacts */
+.contacts-type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+  margin-right: 8px;
+}
+.contacts-item {
+  margin: 0;
+}
+
+.contacts-namber {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+}
+.contacts-email {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2979ff;
+}
+
+.contacts-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2979ff;
+}
+/* skills-list and achivements */
+.skills-list {
+  margin: 0;
+  padding: 0 0 0 24px;
+}
+.skills-list-item {
+  color: #6d9bf5;
+}
+
+.skills-list-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+}
